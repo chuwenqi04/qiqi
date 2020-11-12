@@ -1,0 +1,9 @@
+#include<stdio.h>
+void main(){
+int a,b;
+int arr[13]={0,31,28,31,30,31,30,31,31,30,31,30,31};
+for(a=1;a<=12;a++)
+{printf("%d\n",arr[a]);}
+scanf("%d",&b);
+printf("%d",arr[b]);
+}
