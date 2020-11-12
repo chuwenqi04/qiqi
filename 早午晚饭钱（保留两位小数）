@@ -1,0 +1,7 @@
+#include<stdio.h>
+void main(){
+	double arr[]={5.6,16.23,8.5};
+	printf("早饭%.2lf\n",arr[0]);
+	printf("午饭%.2lf\n",arr[1]);
+	printf("晚饭%.2lf\n",arr[2]);
+}
