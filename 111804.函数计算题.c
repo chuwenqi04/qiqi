@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main(){
 int x;
-scanf("y=%d\n",&x);
+scanf("%d",&x);
 if(x<1){
 	printf("y=%d\n",x);
 }
