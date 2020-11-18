@@ -3,7 +3,7 @@ void main(){
 int a;
 scanf("%d",&a);
 printf("打工人工资等级划分\n");
-if(a>-2&&a<0)
+if(a<=-1)
 {
 	printf("你还有花呗没还，无法使用该程序\n");
 }
@@ -35,4 +35,5 @@ else if(a>=50001&&a<=200000000)
 {
 	printf("程序员\n");
 }
+else{printf("你不行啊！赚不了钱。");}
 }
