@@ -8,5 +8,5 @@ printf("男\n");
 else if(a>-1&&a<1){
 printf("女\n");
 }
-else{printf("性别不知!");}
+else{printf("输入有误，请重新输入。");}
 }
