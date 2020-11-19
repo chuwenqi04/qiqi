@@ -5,12 +5,12 @@ int a=1,b,c=7;
 	printf("(0,50)之间有个整数，给你5次机会，看看你蒙的能力。嘿嘿!!!\n");
 	while(a<=5)
 	{
-	printf("你还有%d次机会!!!\n",a);
+	printf("这是你第%d次机会!!!\n",a);
 	scanf("%d",&b);
 if(b==c)
 	{
 	printf("恭喜你！答对啦!!牛P\n");
-	a=a+5;
+a=a+8;
 }
 else if(b>c)
 	{
