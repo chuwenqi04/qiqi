@@ -44,6 +44,6 @@ void main()
 	{
 	printf("北京师范大学");
 	}
-	else{printf("输入错误，请重新输入");}
+	else{printf("老铁的排名太靠后了，请输入1~10");}
 
 }
