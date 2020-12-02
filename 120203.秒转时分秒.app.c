@@ -8,7 +8,7 @@ void main()
 	sec=num%60;
 	if(num<86400)
 	{
-		printf("%d时:%d分:%d秒\n",hour,min,sec);
+		printf("%.2d时:%.2d分:%.2d秒\n",hour,min,sec);
 	}
 	else if(num>=86400)
 	{
