@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main(){
 	int x,a=1;
-  printf("欢迎使用该程序\n请输入1-20之间的整数\n");
+  printf("欢迎使用该程序可以连续查询排名前二十的大学\n请输入1-20之间的整数\n");
 	while(a=a+1)
 	{
 		scanf("%d",&x);
