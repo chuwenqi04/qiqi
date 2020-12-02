@@ -1,8 +1,8 @@
 #include<stdio.h>
 void main(){
-	int x,a=1;
+	int x;
   printf("欢迎使用该程序可以连续查询排名前二十的大学\n请输入1-20之间的整数\n");
-	while(a=a+1)
+	while(1)
 	{
 		scanf("%d",&x);
 		switch(x)
@@ -30,5 +30,4 @@ void main(){
 		default:printf("请输入1-20的整数。\n");
 		}
 	}
-	a++;
-	}
+}
